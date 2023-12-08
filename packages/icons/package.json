@@ -11,6 +11,9 @@
   "main": "dist/cjs/tabler-icons.js",
   "main:umd": "dist/umd/tabler-icons.js",
   "exports": {
+    ".": [
+      "./dist/es/tabler-icons.js"
+    ],
     "./*": [
       "./icons/*"
     ]
